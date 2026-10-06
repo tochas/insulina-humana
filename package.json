@@ -1,0 +1,6 @@
+{
+  "name": "museo-interactivo-proteinas", "version": "1.0.0", "private": true, "type": "module",
+  "scripts": { "dev": "vite --host 127.0.0.1", "build": "tsc --noEmit && vite build && node scripts/build-sw.mjs", "preview": "node scripts/server.mjs", "test": "vitest run", "audit:models": "node scripts/audit-models.mjs" },
+  "dependencies": { "3dmol": "2.5.3" },
+  "devDependencies": { "typescript": "~5.9.3", "vite": "^7.1.0", "vitest": "^3.2.4" }
+}
